@@ -13,6 +13,57 @@ h1 {
 
 /* TODO: Add more styles */
 
-/* h2 {
-    
-} */
+/* h2 heading {} */
+h2{
+  font-family: "GeneralSans-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0%;
+  text-decoration: none;
+  size: 2.5rem;
+  line-height: 125%;
+  text-transform: capitalize;
+}
+/* b1 body {} */
+.body-b1{
+  font-family: "GeneralSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-decoration: none;
+  size: 1.5rem;
+  line-height: 155%;
+}
+/* b3 body {} */
+.body-b3{
+  font-family: "GeneralSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-decoration: none;
+  size: 1rem;
+  line-height: 155%;
+}
+/* b2 body {} */
+.body-b2{
+  font-family: "Archivo-Regular";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.5%;
+  text-decoration: none;
+  size: 1.125rem;
+  line-height: 155%;
+}
+
+/* h1 body {} */
+.body-h1{
+  font-family: "GeneralSans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -2%;
+  text-decoration: none;
+  size: 3.875rem;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+

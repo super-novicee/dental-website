@@ -1,7 +1,16 @@
 @import url("general-sans.css");
 
-h1 {
-  font-family: "GeneralSans-Semibold";
+:root {
+  --gs-bold: "GeneralSans-Bold";
+  --gs-semibold: "GeneralSans-Semibold";
+  --gs-medium: "GeneralSans-Medium";
+  --gs-regular: "GeneralSans-Regular";
+  --ar-regular: "Archivo-Regular";
+}
+
+/* heading */
+.heading-h1 {
+  font-family: var(--gs-semibold);
   font-style: normal;
   font-weight: 600;
   letter-spacing: -1.24px;
@@ -11,11 +20,8 @@ h1 {
   text-transform: capitalize;
 }
 
-/* TODO: Add more styles */
-
-/* h2 heading {} */
-h2{
-  font-family: "GeneralSans-Semibold";
+.heading-h2 {
+  font-family: var(--gs-semibold);
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0%;
@@ -24,9 +30,10 @@ h2{
   line-height: 125%;
   text-transform: capitalize;
 }
-/* b1 body {} */
-.body-b1{
-  font-family: "GeneralSans-Regular";
+
+/* body */
+.body-b1 {
+  font-family: var(--gs-regular);
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0%;
@@ -34,19 +41,9 @@ h2{
   size: 1.5rem;
   line-height: 155%;
 }
-/* b3 body {} */
-.body-b3{
-  font-family: "GeneralSans-Regular";
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-decoration: none;
-  size: 1rem;
-  line-height: 155%;
-}
-/* b2 body {} */
-.body-b2{
-  font-family: "Archivo-Regular";
+
+.body-b2 {
+  font-family: var(--ar-regular);
   font-style: normal;
   font-weight: 400;
   letter-spacing: 1.5%;
@@ -55,9 +52,19 @@ h2{
   line-height: 155%;
 }
 
-/* h1 body {} */
-.body-h1{
-  font-family: "GeneralSans-Bold";
+.body-b3 {
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-decoration: none;
+  size: 1rem;
+  line-height: 155%;
+}
+
+/* body-h1 */
+.body-h1-bold {
+  font-family: var(--gs-bold);
   font-style: normal;
   font-weight: 700;
   letter-spacing: -2%;
@@ -67,3 +74,115 @@ h2{
   text-transform: capitalize;
 }
 
+.body-h1-semibold {
+}
+
+.body-h1-medium {
+}
+
+.body-h1-regular {
+}
+
+/* body-h2 */
+.body-h2-bold {
+}
+
+.body-h2-semibold {
+}
+
+.body-h2-medium {
+}
+
+.body-h2-regular {
+}
+
+/* body-h2 */
+.body-h2-bold {
+}
+
+.body-h2-semibold {
+}
+
+.body-h2-medium {
+}
+
+.body-h2-regular {
+}
+
+/* body-h3 */
+.body-h3-bold {
+}
+
+.body-h3-semibold {
+}
+
+.body-h3-medium {
+}
+
+.body-h3-regular {
+}
+
+/* body-h4 */
+.body-h4-bold {
+}
+
+.body-h4-semibold {
+}
+
+.body-h4-medium {
+}
+
+.body-h4-regular {
+}
+
+/* body-b1 */
+.body-b1-bold {
+}
+
+.body-b1-semibold {
+}
+
+.body-b1-medium {
+}
+
+.body-b1-regular {
+}
+
+/* body-b2 */
+.body-b2-bold {
+}
+
+.body-b2-semibold {
+}
+
+.body-b2-medium {
+}
+
+.body-b2-regular {
+}
+
+/* body-b3 */
+.body-b3-bold {
+}
+
+.body-b3-semibold {
+}
+
+.body-b3-medium {
+}
+
+.body-b3-regular {
+}
+
+/* body-b4 */
+.body-b4-bold {
+}
+
+.body-b4-semibold {
+}
+
+.body-b4-medium {
+}
+
+.body-b4-regular {
+}

@@ -6,10 +6,12 @@
   --gs-medium: "GeneralSans-Medium";
   --gs-regular: "GeneralSans-Regular";
   --ar-regular: "Archivo-Regular";
+  --black: #222;
 }
 
 /* heading */
 .heading-h1 {
+  color: var(--black);
   font-family: var(--gs-semibold);
   font-style: normal;
   font-weight: 600;
@@ -18,41 +20,51 @@
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .heading-h2 {
+  color: var(--black);
   font-family: var(--gs-semibold);
   font-style: normal;
   font-weight: 600;
-  letter-spacing: 0%;
   text-decoration: none;
   size: 2.5rem;
   line-height: 125%;
   text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body */
 .body-b1 {
+  color: var(--black);
   font-family: var(--gs-regular);
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0%;
   text-decoration: none;
   size: 1.5rem;
   line-height: 155%;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b2 {
+  color: var(--black);
   font-family: var(--ar-regular);
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 1.5%;
+  letter-spacing: 0.27px;
   text-decoration: none;
   size: 1.125rem;
   line-height: 155%;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b3 {
+  color: var(--black);
   font-family: var(--gs-regular);
   font-style: normal;
   font-weight: 400;
@@ -60,30 +72,121 @@
   text-decoration: none;
   size: 1rem;
   line-height: 155%;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-h1 */
 .body-h1-bold {
+  color: var(--black);
   font-family: var(--gs-bold);
   font-style: normal;
   font-weight: 700;
-  letter-spacing: -2%;
+  letter-spacing: -1.24px;
   text-decoration: none;
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h1-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -1.24px;
+  text-decoration: none;
+  size: 3.875rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h1-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -1.24px;
+  text-decoration: none;
+  size: 3.875rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h1-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -1.24px;
+  text-decoration: none;
+  size: 3.875rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-h2 */
+.body-h2-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 2.625rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
+}
+
+.body-h2-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 2.625rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
+}
+
+.body-h2-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 2.625rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
+}
+
+.body-h2-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 2.625rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
+}
+
+/* body-h2
 .body-h2-bold {
 }
 
@@ -94,95 +197,338 @@
 }
 
 .body-h2-regular {
-}
-
-/* body-h2 */
-.body-h2-bold {
-}
-
-.body-h2-semibold {
-}
-
-.body-h2-medium {
-}
-
-.body-h2-regular {
-}
+} */
 
 /* body-h3 */
 .body-h3-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 2.25rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h3-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 2.25rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h3-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 2.25rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h3-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  size: 2.25rem;
+  line-height: 125%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-h4 */
 .body-h4-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 1.5rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h4-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 1.5rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h4-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 1.5rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-h4-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 1.5rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-b1 */
 .body-b1-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 1.125rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.27px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b1-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 1.125rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.27px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b1-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 1.125rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.27px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
-.body-b1-regular {
+.body-b1-regular {  
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  size: 1.125rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.27px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-b2 */
 .body-b2-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 1rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.24px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b2-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 1rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.24px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b2-medium {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 1rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.24px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b2-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  size: 1rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.24px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-b3 */
 .body-b3-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 0.875rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.28px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b3-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 0.875rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.28px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b3-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 0.875rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.28px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b3-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  size: 0.875rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.28px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 /* body-b4 */
 .body-b4-bold {
+  color: var(--black);
+  font-family: var(--gs-bold);
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  size: 0.75rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.18px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b4-semibold {
+  color: var(--black);
+  font-family: var(--gs-semibold);
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  size: 0.75rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.18px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b4-medium {
+  color: var(--black);
+  font-family: var(--gs-medium);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  size: 0.75rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.18px;
+  width: 472px;
+  flex-shrink: 0;
 }
 
 .body-b4-regular {
+  color: var(--black);
+  font-family: var(--gs-regular);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  size: 0.75rem;
+  line-height: 155%;
+  text-transform: none;
+  letter-spacing: 0.18px;
+  width: 472px;
+  flex-shrink: 0;
 }

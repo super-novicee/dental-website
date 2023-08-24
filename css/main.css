@@ -7,6 +7,11 @@
   --gs-regular: "GeneralSans-Regular";
   --ar-regular: "Archivo-Regular";
   --black: #222;
+  --dark-blue-design: #011632;
+}
+
+.dark-blue {
+  color: var(--dark-blue-design) !important;
 }
 
 /* heading */
@@ -20,7 +25,6 @@
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .heading-h2 {
@@ -32,7 +36,6 @@
   size: 2.5rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 /* body */
@@ -44,7 +47,6 @@
   text-decoration: none;
   size: 1.5rem;
   line-height: 155%;
-
 }
 
 .body-b2 {
@@ -56,7 +58,6 @@
   text-decoration: none;
   size: 1.125rem;
   line-height: 155%;
-
 }
 
 .body-b3 {
@@ -68,7 +69,6 @@
   text-decoration: none;
   size: 1rem;
   line-height: 155%;
-
 }
 
 /* body-h1 */
@@ -82,7 +82,6 @@
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .body-h1-semibold {
@@ -95,7 +94,6 @@
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .body-h1-medium {
@@ -108,7 +106,6 @@
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .body-h1-regular {
@@ -121,7 +118,6 @@
   size: 3.875rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 /* body-h2 */
@@ -134,7 +130,6 @@
   size: 2.625rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 .body-h2-semibold {
@@ -146,7 +141,6 @@
   size: 2.625rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 .body-h2-medium {
@@ -158,7 +152,6 @@
   size: 2.625rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 .body-h2-regular {
@@ -170,7 +163,6 @@
   size: 2.625rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 /* body-h2
@@ -196,7 +188,6 @@
   size: 2.25rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 .body-h3-semibold {
@@ -208,7 +199,6 @@
   size: 2.25rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 .body-h3-medium {
@@ -220,7 +210,6 @@
   size: 2.25rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 .body-h3-regular {
@@ -232,7 +221,6 @@
   size: 2.25rem;
   line-height: 125%;
   text-transform: capitalize;
-
 }
 
 /* body-h4 */
@@ -245,7 +233,6 @@
   size: 1.5rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .body-h4-semibold {
@@ -257,7 +244,6 @@
   size: 1.5rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .body-h4-medium {
@@ -269,7 +255,6 @@
   size: 1.5rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 .body-h4-regular {
@@ -281,7 +266,6 @@
   size: 1.5rem;
   line-height: 120%;
   text-transform: capitalize;
-
 }
 
 /* body-b1 */
@@ -295,7 +279,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.27px;
-
 }
 
 .body-b1-semibold {
@@ -308,7 +291,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.27px;
-
 }
 
 .body-b1-medium {
@@ -321,10 +303,9 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.27px;
-
 }
 
-.body-b1-regular {  
+.body-b1-regular {
   color: var(--black);
   font-family: var(--gs-regular);
   font-style: normal;
@@ -334,7 +315,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.27px;
-
 }
 
 /* body-b2 */
@@ -348,7 +328,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.24px;
-
 }
 
 .body-b2-semibold {
@@ -361,7 +340,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.24px;
-
 }
 
 .body-b2-medium {
@@ -374,7 +352,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.24px;
-
 }
 
 .body-b2-regular {
@@ -387,7 +364,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.24px;
-
 }
 
 /* body-b3 */
@@ -401,7 +377,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.28px;
-
 }
 
 .body-b3-semibold {
@@ -414,7 +389,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.28px;
-
 }
 
 .body-b3-medium {
@@ -427,7 +401,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.28px;
-
 }
 
 .body-b3-regular {
@@ -440,7 +413,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.28px;
-
 }
 
 /* body-b4 */
@@ -454,7 +426,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.18px;
-
 }
 
 .body-b4-semibold {
@@ -467,7 +438,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.18px;
-
 }
 
 .body-b4-medium {
@@ -480,7 +450,6 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.18px;
-
 }
 
 .body-b4-regular {
@@ -493,5 +462,4 @@
   line-height: 155%;
   text-transform: none;
   letter-spacing: 0.18px;
-
 }

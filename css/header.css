@@ -44,3 +44,19 @@
   margin-right: 80px;
   flex-grow: 1;
 }
+
+.container-picture {
+  position: relative;
+}
+
+.circle-green {
+  position: absolute;
+  background: #17bf28;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border-color: #e6f6fe;
+  border-style: solid;
+  right: 0px;
+  top: 0px;
+}

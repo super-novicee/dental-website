@@ -38,7 +38,7 @@
   margin-left: 40px;
 }
 
-.header-border {
+.border {
   display: flex;
   margin-left: 80px;
   margin-right: 80px;
@@ -59,4 +59,32 @@
   border-style: solid;
   right: 0px;
   top: 0px;
+}
+
+.h1-main {
+  width: 687px;
+  height: 148px;
+  font-size: 62px;
+}
+.p-main {
+  width: 531px;
+  height: 84px;
+  font-size: 18px;
+}
+
+.book-an-appointment {
+  display: flex;
+  font-size: 14px;
+  color: #e6f6fe;
+  border-radius: 10px;
+  background: #1376f8;
+  width: 227px;
+  height: 55px;
+  display: inline-flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  align-items: flex-start;
+  gap: 10px;
 }
